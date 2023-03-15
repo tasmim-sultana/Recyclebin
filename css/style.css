@@ -1,0 +1,86 @@
+
+
+body
+{
+margin:0;
+   background-color: bisque;
+}
+
+.navbar-brand{
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+font-weight: bold;
+color:white;
+}
+.custom-nav .custom-nav-item a{
+    color:white;
+}
+
+.custom-nav-item:hover
+{
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+.remove-vid-marg
+{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.div-parent
+{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background:#FFF0F5;
+    opacity: 0.5;
+}
+.vid-content
+{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left:34%;
+    text-align: center;
+    color:whitesmoke;
+    padding: 10px;
+}
+.vid-content .my-content
+{
+    font-family: fantasy;
+    font-style: italic;
+    color: teal;
+}
+.txt-banner
+{
+    color: white;
+    padding: 15px;
+}
+.custom-pic
+{
+    width: 100%;
+    height: 70%;
+}
+
+a.social-hover:hover{
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+
